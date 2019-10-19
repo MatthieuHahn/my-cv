@@ -13,4 +13,16 @@
     text-align: center;
 
   }
+
+  &--content {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    max-width: 960px;
+
+    &__block {
+      width: 100%;
+    }
+  }
 }
