@@ -1,0 +1,16 @@
+@import 'theme';
+
+.home {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+
+  &--header {
+    padding: 60px 0;
+    background: $brand-primary;
+    color: $brand-primary-font;
+    width: 100%;
+    text-align: center;
+
+  }
+}
